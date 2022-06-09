@@ -112,6 +112,9 @@ clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
   .i {
     flex-direction: column;
   }
+    .i-title {
+      padding: 0px 0px;
+    }
 
   .i-left-wrapper {
   
