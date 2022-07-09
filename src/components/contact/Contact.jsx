@@ -70,26 +70,32 @@ const Contact = () => {
           </p>
           <form ref={formRef} onSubmit={handleSubmit}>
             <input
-              style={{ backgroundColor: darkMode && "#333" }}
+              style={{ backgroundColor: darkMode ? "white" : "black",borderBottomColor:darkMode? "black":"white" }}
               type="text"
+               className={!darkMode && "white"}
               placeholder="Your Name"
               name="user_name"
             />
             <input
-              style={{ backgroundColor: darkMode && "#333" }}
+              style={{ backgroundColor: darkMode ? "white" : "black",borderBottomColor:darkMode? "black":"white",  }}
               type="text"
+
+              className={!darkMode && "white"}
+              
               placeholder="Subject"
               name="user_subject"
             />
             <input
-              style={{ backgroundColor: darkMode && "#333" }}
+              style={{ backgroundColor: darkMode ? "white" : "black",borderBottomColor:darkMode? "black":"white" }}
               type="text"
+               className={!darkMode && "white"}
               placeholder="Your Email"
               name="user_email"
             />
             <textarea
-              style={{ backgroundColor: darkMode && "#333" }}
+              style={{ backgroundColor: darkMode ? "white" : "black",borderColor:darkMode? "black":"white" }}
               rows="5"
+               className={!darkMode && "white"}
               placeholder="Message"
               name="message"
             />

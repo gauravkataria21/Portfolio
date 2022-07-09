@@ -7,7 +7,7 @@ const ProductList = () => {
     <div className="pl">
       <div className="pl-texts">
         <h1 className="pl-title">My..! Projects </h1>
-        <span className="pl-title2">You can visit anyone...</span>
+        {/* <span className="pl-title2">You can visit anyone...</span> */}
         {/* <p className="pl-desc">These are my Projects....</p> */}
       </div>
       <div className="pl-list">
