@@ -1,6 +1,7 @@
 import "./intro.css";
 import Me from "../../img/14.svg";
 
+
 const Intro = () => {
   return (
     <div className="i">
