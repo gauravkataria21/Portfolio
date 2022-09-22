@@ -8,6 +8,8 @@ import node from "../../img/nodejs.png";
 import bootstrap from "../../img/bootstrap.png";
 import github from "../../img/github.png";
 import mongo from "../../img/mongo.png";
+import json from "../../img/json.png";
+import npm from "../../img/npm.png";
 
 
 
@@ -17,22 +19,16 @@ const Skills = () => {
       <h1 className='heading-skill'>TECHNICAL SKILLS</h1>
       <div className='skill-section'>
 
-        <img src={html} alt="html" className='skill-img' height={100} width={100
-      } />
-        <img src={css} alt="html" className='skill-img' height={100} width={100
-      } />
-        <img src={bootstrap} alt="html" className='skill-img' height={100} width={100
-      } />
-        <img src={js} alt="html" className='skill-img' height={100} width={100
-      } />
-        <img src={react} alt="html" className='skill-img' height={100} width={100
-      } />
-        <img src={node} alt="html" className='skill-img' height={100} width={100
-      } />
-        <img src={github} alt="html" className='skill-img' height={100} width={100
-      } />
-        <img src={mongo} alt="html" className='skill-img' height={100} width={100
-      } />
+        <img src={html} alt="html" className='skill-img'  />
+        <img src={css} alt="html" className='skill-img'  />
+        <img src={react} alt="html" className='skill-img'  />
+        <img src={github} alt="html" className='skill-img'  />
+        <img src={bootstrap} alt="html" className='skill-img'  />
+        <img src={js} alt="html" className='skill-img'  />
+        <img src={node} alt="html" className='skill-img'  />
+        <img src={npm} alt="html" className='skill-img'  />
+        <img src={json} alt="html" className='skill-img'  />
+        <img src={mongo} alt="html" className='skill-img'  />
         
       </div>
         

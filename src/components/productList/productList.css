@@ -11,12 +11,10 @@
 }
 
 .pl-title {
-  font-size: 50px;
-  font-weight: 600;
-  color: #e42
-  ;
-  text-transform: uppercase;
-  text-decoration: dashed;
+      text-align: center;
+        font-size: 38px;
+        color: darkgray;
+        margin-bottom: 30px;
 }
 .pl-title2 {
   font-size: 25px;
@@ -38,7 +36,7 @@
 @media screen and (max-width: 480px) {
   .pl {
     padding: 10px;
-    margin-top: 80px;
+    
   }
 
   .pl-texts {
