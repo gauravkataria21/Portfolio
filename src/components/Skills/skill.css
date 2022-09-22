@@ -1,0 +1,40 @@
+.skill {
+	margin-top: 36px;
+	background-color: rgb(255, 255, 255);
+	padding: 20px 0px;
+}
+.skill-section {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.heading-skill {
+	text-align: center;
+	color: darkgray;
+	margin-bottom: 21px;
+}
+.skill-img {
+
+}
+@media screen and (max-width: 480px) {
+	.skill-img {
+		height: 100px;
+		width: 100px;
+		padding: 20px 0;
+
+	}
+	.skill-img-boot {
+		height: 90px;
+		width: 90px;
+
+		padding: 20px 0;
+	}
+	.heading-skill {
+		text-align: center;
+		font-size: 18px;
+		color: darkgray;
+		margin-bottom: 18px;
+	}
+}

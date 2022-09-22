@@ -13,6 +13,10 @@
 .pl-title {
   font-size: 50px;
   font-weight: 600;
+  color: #e42
+  ;
+  text-transform: uppercase;
+  text-decoration: dashed;
 }
 .pl-title2 {
   font-size: 25px;

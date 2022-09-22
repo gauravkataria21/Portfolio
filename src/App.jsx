@@ -7,6 +7,7 @@ import Toggle from "./components/toggle/Toggle";
 import { ThemeContext } from "./context";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import Skills from "./components/Skills/Skills";
 
 
 const App = () => {
@@ -19,14 +20,15 @@ const App = () => {
   return (
     <div
       style={{
-        backgroundColor: !darkMode ? "#000" : "white",
-        color: !darkMode && "white",
+        backgroundColor:darkMode ? "#000" : "white",
+        color: darkMode && "white",
       }}
     >
       <ToastContainer />
       <Toggle />
       <Intro />
       <About />
+      <Skills/>
       <ProductList />
 
       <Contact />

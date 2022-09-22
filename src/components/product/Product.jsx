@@ -9,7 +9,7 @@ const Product = ({ img, link, name }) => {
         <div className="p-circle"></div>
         <h5 className="name">{name}</h5>
       </div>
-      <a href={link} target="_blank" rel="noreferrer">
+      <a href="https://gauravkataria.netlify.app/" target="_blank" rel="noreferrer">
         <img src={img} alt="" className="p-img" />
       </a>
     </div>

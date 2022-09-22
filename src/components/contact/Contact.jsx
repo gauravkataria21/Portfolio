@@ -1,6 +1,8 @@
 import "./contact.css";
 import Phone from "../../img/phone.png";
 import Email from "../../img/email.png";
+import insta from "../../img/insta.png";
+import linkedin from "../../img/linkedin.png";
 import Address from "../../img/way2.gif";
 import { useContext, useRef, useState } from "react";
 import emailjs from "emailjs-com";
@@ -47,7 +49,7 @@ const Contact = () => {
       <div className="c-bg"></div>
       <div className="c-wrapper">
         <div className="c-left">
-          <h1 className="c-title">Let's discuss your project</h1>
+          <h1 className="c-title">Let's discuss your Query..!</h1>
           <div className="c-info">
             <div className="c-info-item">
               <img src={Phone} alt="" className="c-icon" />
@@ -61,6 +63,18 @@ const Contact = () => {
               <img className="c-icon" src={Address} alt="" />
               Chandighar ( India )
             </div>
+            <div className="c-social-item">
+              <a href="instagram.com/___just_gaurav_____/" target="_blank" className="social-link" rel="noreferrer">
+        <img src={insta} alt="" height={40}width={40} />
+      </a>
+              <a href="https://www.linkedin.com/in/itsgauravkatariaa/" target="_blank" className="social-link" rel="noreferrer">
+        <img src={linkedin} alt="" height={40}width={40} />
+      </a>
+              
+              
+            
+            </div>
+           
           </div>
         </div>
         <div className="c-right">
@@ -70,32 +84,32 @@ const Contact = () => {
           </p>
           <form ref={formRef} onSubmit={handleSubmit}>
             <input
-              style={{ backgroundColor: darkMode ? "white" : "black",borderBottomColor:darkMode? "black":"white" }}
+              style={{ backgroundColor:  "white",borderBottomColor:"black" }}
               type="text"
-               className={!darkMode && "white"}
+               className={darkMode && "white"}
               placeholder="Your Name"
               name="user_name"
             />
             <input
-              style={{ backgroundColor: darkMode ? "white" : "black",borderBottomColor:darkMode? "black":"white",  }}
+              style={{ backgroundColor:  "white",borderBottomColor:"black"  }}
               type="text"
 
-              className={!darkMode && "white"}
+              className={darkMode && "white"}
               
               placeholder="Subject"
               name="user_subject"
             />
             <input
-              style={{ backgroundColor: darkMode ? "white" : "black",borderBottomColor:darkMode? "black":"white" }}
+              style={{ backgroundColor:  "white",borderBottomColor:"black" }}
               type="text"
-               className={!darkMode && "white"}
+               className={darkMode && "white"}
               placeholder="Your Email"
               name="user_email"
             />
             <textarea
-              style={{ backgroundColor: darkMode ? "white" : "black",borderColor:darkMode? "black":"white" }}
+              style={{ backgroundColor:  "white",borderBottomColor:"black" }}
               rows="5"
-               className={!darkMode && "white"}
+               className={darkMode && "white"}
               placeholder="Message"
               name="message"
             />
