@@ -29,6 +29,14 @@
 		padding-right: 10px;
 
 	}
+		.skill-section {
+			padding: 0 15px;
+			display: flex;
+			justify-content: space-around;
+			flex-direction: row;
+			align-items: center;
+			flex-wrap: wrap;
+		}
 	.skill-img-boot {
 		height: 90px;
 		width: 90px;
