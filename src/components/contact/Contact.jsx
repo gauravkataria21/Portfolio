@@ -61,7 +61,7 @@ const Contact = () => {
             </div>
             <div className="c-info-item">
               <img className="c-icon" src={Address} alt="" />
-              Chandighar ( India )
+              Chandigarh ( India )
             </div>
             <div className="c-social-item">
               <a href="instagram.com/___just_gaurav_____/" target="_blank" className="social-link" rel="noreferrer">
