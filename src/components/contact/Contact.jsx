@@ -20,7 +20,7 @@ const Contact = () => {
 
     (function () {
       
-      emailjs.init("vCMkpEvIa_QLTogZN");
+      emailjs.init("mapBxC54AdVSjOqek");
     })();
     await emailjs
       .sendForm("service_3qr24sn", "template_n54xw9f", formRef.current)
